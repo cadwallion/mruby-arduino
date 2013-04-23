@@ -264,7 +264,6 @@ mrb_mruby_arduino_gem_init(mrb_state* mrb) {
   mrb_define_const(mrb, arduinoModule, "INPUT_PULLUP", mrb_fixnum_value(INPUT_PULLUP));
 #endif
   mrb_define_const(mrb, arduinoModule, "DEFAULT", mrb_fixnum_value(DEFAULT));
-  mrb_define_const(mrb, arduinoModule, "INTERNAL", mrb_fixnum_value(INTERNAL));
   mrb_define_const(mrb, arduinoModule, "EXTERNAL", mrb_fixnum_value(EXTERNAL));
   //for chipKit, below are not defined.
 #ifdef INTERNAL1V1
